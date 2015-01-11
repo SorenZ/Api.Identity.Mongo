@@ -10,6 +10,7 @@ namespace Service.Model
     {
         public string Title { get; set; }
         public string Description { get; set; }
+        public List<string> IpRange { get; set; }
         public List<string> DefaultPermissions { get; set; }
     }
 }
