@@ -44,9 +44,12 @@ namespace Service.Model
     {
         public string Title { get; set; }
         public bool IsActive { get; set; }
-        public bool IsLimitedByTime { get; set; }
-        public DateTime Start { get; set; }
-        public DateTime End { get; set; }
+        public bool IsLimitedByDate { get; set; }
+        public DateTime? StartDate { get; set; }
+        public DateTime? EndDate { get; set; }
+        public bool IsLimitedInDay { get; set; }
+        public DateTime? StartTime { get; set; }
+        public DateTime? EndTime { get; set; }
         public List<string> IpRange { get; set; }
         public List<Dictionary<string, Dictionary<string, string[]>>> Permissions { get; set; }
     }
