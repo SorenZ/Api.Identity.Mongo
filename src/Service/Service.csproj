@@ -58,11 +58,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bootstrapper.cs" />
-    <Compile Include="Model\DefaultPermission.cs" />
-    <Compile Include="Model\PermissionHierarchy.cs" />
-    <Compile Include="Model\DefaultRole.cs" />
-    <Compile Include="Model\User.cs" />
+    <Compile Include="Models\Permission.cs" />
+    <Compile Include="Models\Role.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Modules\Account.cs" />
+    <Compile Include="Modules\Initialization.cs" />
+    <Compile Include="Modules\Management.cs" />
+    <Compile Include="Modules\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
