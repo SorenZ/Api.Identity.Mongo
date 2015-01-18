@@ -19,7 +19,6 @@ namespace Service.Models
         public string FriendlyName { get; set; }
         public bool IsActive { get; set; }
         public string PasswordHash { get; set; }
-        public string SecurityStamp { get; set; }
         
         /// <summary>
         /// determine the user is from control panel (admin) or (site)

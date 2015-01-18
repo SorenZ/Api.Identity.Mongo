@@ -12,6 +12,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{DA85497B-CE3
 		doc\MongoRepository.chm = doc\MongoRepository.chm
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{F5D07AFF-8B2B-4588-931E-CBF6EDFA8FB7}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Alamut.Security.dll = lib\Alamut.Security.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

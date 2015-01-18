@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using Nancy;
 using MongoRepository;
+using Nancy;
 using Service.Models;
 
-namespace Service.Modules
+namespace Service.Modules.Account
 {
     /// <summary>
     /// init the
